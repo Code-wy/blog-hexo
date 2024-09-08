@@ -106,8 +106,7 @@ algolia_search:
   hits:
     per_page: 6
   tags:
-    # - 前端
-    # - Hexo
+    - Hexo
   labels:
     input_placeholder: Search for Posts
     hits_empty: "我们没有找到任何搜索结果: ${query}"
@@ -202,7 +201,7 @@ post_meta:
     date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
     date_format: date # date/relative 显示日期还是相对日期
     categories: true # true or false 文章页是否显示分类
-    tags: true # true or false 文章页是否显示标籤
+    tags: false # true or false 文章页是否显示标籤
     label: true # true or false 显示描述性文字
     unread: false # true or false 文章未读功能
 
@@ -376,7 +375,7 @@ waline:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://main--twiko-blog.netlify.app/.netlify/functions/twikoo
+  envId: https://twikoo.doraemon.press
   region:
   visitor: false
   option:
@@ -906,8 +905,7 @@ centerConsole:
     color: false
     sort_order: # Don't modify the setting unless you know how it works
     highlightTags:
-      # - Hexo
-      # - 前端
+      - Hexo
   card_archives:
     enable: true
     type: monthly # yearly or monthly
