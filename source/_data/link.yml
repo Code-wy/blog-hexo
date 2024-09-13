@@ -18,6 +18,11 @@
       avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
       descr: 分享设计与科技生活
       recommend: false
+    - name: Magren's Blog
+      link: https://magren.cc/
+      avatar: https://magren.cc/avatar.png
+      descr: 不为繁华易匠心
+      recommend: false
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事
